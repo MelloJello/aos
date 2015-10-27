@@ -1,0 +1,15 @@
+## CMakeLists.txt
+
+cmake_minimum_required (VERSION 2.8)
+PROJECT (base)
+
+
+SET (CMAKE_C_FLAGS "" )
+SET (CMAKE_CXX_FLAGS "")
+SET (CMAKE_EXE_LINKER_FLAGS "")
+SET (CMAKE_ASM_OBJECT_FORMAT "")
+
+
+ADD_SUBDIRECTORY (bin)
+ADD_SUBDIRECTORY (kernel)
+
