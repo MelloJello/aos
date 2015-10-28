@@ -1,6 +1,4 @@
-## /usr/src/bin/CMakeLists.txt
-
-PROJECT(BIN VERSION 0.0.1)
+## /usr/src/bin
 
 ADD_SUBDIRECTORY(cat)
 ADD_SUBDIRECTORY(cp)
