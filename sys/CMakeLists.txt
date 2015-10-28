@@ -1,0 +1,6 @@
+## /usr/src/sys
+
+PROJECT(SYS)
+
+ADD_SUBDIRECTORY(jit)
+ADD_SUBDIRECTORY(kernel)
